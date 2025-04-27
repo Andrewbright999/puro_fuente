@@ -1,0 +1,136 @@
+/* =========================== */
+/* СТИЛИ СЛАЙДЕРА (slider...)  */
+/* =========================== */
+.slider-container {
+  width: 100%; /* или max-width: 800px; если нужна фиксированная ширина */
+  height: 400px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.slider-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.slider-track img {
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+/* =========================== */
+/* ВЫПАДАЮЩИЙ СПИСОК ЯЗЫКОВ    */
+/* =========================== */
+.language-dropdown {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 20px;
+}
+
+#language-select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#language-select:focus {
+  outline: none;
+  border-color: #888;
+}
+
+/* =========================== */
+/* ГАЛЕРЕЯ (gallery...)        */
+/* =========================== */
+
+/* Контейнер внешней галереи + кнопок */
+.gallery-container {
+  /* Объединили с вашим вариантом display: flex */
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* при необходимости можно добавить width / max-width / margin / etc. */
+}
+
+/* Обёртка под картинки, чтобы они были в одной области */
+.gallery-wrapper {
+  position: relative;
+  width: 70%;    /* Подставьте желаемую ширину галереи */
+  height: 400px;   /* И желаемую высоту */
+  overflow: hidden;
+  margin: 0 10px;  /* отступы слева/справа, если нужны */
+}
+
+/* Контейнер, в который складываются <img> */
+.gallery {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Сами картинки в галерее */
+.gallery img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* или contain, если нужно по-другому вписывать */
+  opacity: 0;        /* изначально скрыты */
+  transition: opacity 0.6s ease-in-out;
+}
+
+/* Класс, который показываем для текущего слайда (fade-in) */
+.gallery img.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* =========================== */
+/* КНОПКИ ДЛЯ ПЕРЕЛИСТЫВАНИЯ   */
+/* =========================== */
+.nav-button-img {
+  background-color: transparent;
+  color: #fff;
+  font-size: 3rem;
+  width: 4rem;
+  font-weight: bold;
+  z-index: 3;
+  border: none;
+  cursor: pointer;
+  height: 400px;
+}
+
+#prev-plot-img {
+  margin-right: -5rem;
+}
+
+#next-plot-img {
+  margin-left: -5rem;
+}
+
+.nav-button-img:hover {
+  color: #2E778C;
+}
+
+
+#plot-details-link{
+  background-color: transparent;
+  color: #595045;
+  font-size: larger;
+
+}
+/* Если есть кнопки переключения участков (plot) вида .nav-button,
+ можно добавить им общий стиль:
+.nav-button {
+  ... ваш код ...
+}
+*/

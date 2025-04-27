@@ -1,0 +1,1332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --brend-brown: #595045;
+    --deep-blue: #08588C;
+    --ice-light-blue: #7DC2E7;
+    --text-color: rgb(17, 17, 17);
+}
+
+html{   
+    scroll-behavior: smooth;
+}
+
+
+body{
+    transition: background-color 1s ease-in-out;
+    padding: 0 1rem 5rem 1rem;  
+    font-family: 'Quicksand', 'Montserrat', Arial, Helvetica, sans-serif;
+    color: var(--brend-brown);
+    display: flex;
+    gap: 7rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Header properties ------------------- */
+
+header, #form-section{
+    height: 85%;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    background-position:  -40px bottom;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    padding: 0.2rem ;
+
+    /* pointer-events: none; */
+}
+
+#form-section{
+    background-color: var(--ice-light-blue);
+    background-image: url(../img/glaicer.webp);
+    background-image: url(../img/glaicer.png);
+    padding: 2rem;
+}
+
+#puro-cielo-header{
+    margin-left: 6px;
+    font-size: 2rem;
+    line-height: 90%;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+header{
+    gap: 0px;
+    height: 90svh;
+    justify-content: space-evenly;
+}
+
+#header-glaicer-video, .video-overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90svh;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;   
+}
+
+
+
+#second-video,  #terro-sale, #terra-map{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3rem;    
+}
+
+#second-video{
+    height: 30svh
+}
+
+#terro-sale, #terra-map, .our-terras{
+    background-color: #967758;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 70px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 3rem 1.5rem;
+    gap: 2rem;
+    width: 100%;
+}
+
+
+#terra-map{
+    background-color: #F5F1E7;
+    color: #595045;
+}
+
+#submit-terra-form, #terra-map #about-project-rectangle>rect {
+    background-color: #2E778C;
+    fill:#2E778C;
+}
+
+
+.video-overlay{
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Navigation */
+
+nav>a{
+    color: var(--deep-blue);
+    text-decoration: none;
+    font-size: 1.6rem;
+    letter-spacing: -5%;
+    font-weight: 400;
+    word-wrap: none;
+    text-wrap: nowrap;
+    transition-duration: 0.5s;
+
+}
+
+a:hover{
+    color: var(--ice-light-blue);
+}
+
+nav a:hover{
+    background-color: white;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    transition-duration: 0.5s;
+    margin: -2rem 0rem;
+}
+
+
+nav{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    backdrop-filter: blur(34px);
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 4;
+    pointer-events: all;
+    border-radius: 2rem;
+    width: fit-content;
+}
+
+.langlink, .language-dropdown{
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    right: 2rem;
+    top: 1rem;
+    z-index: 4;
+}
+
+.langlink:hover{
+    color: #8f816f;
+}
+
+
+
+
+
+/* Typographic ----------------- */
+
+:lang(ru) {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+:lang(ru) h1{
+font-family: 'Quicksand','Montserrat', Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 16px; 
+}
+
+h1{
+    z-index: 3;
+    font-size: 5rem;
+    line-height: 90%;
+    text-wrap: nowrap;
+    text-align: center;
+    align-self: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+/* h2 headers */
+
+h2{
+    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 90%;
+    letter-spacing: -0.2rem;
+    width: fit-content;
+}
+
+#business-lines > h2{
+    font-size: 3rem;
+
+}
+
+
+h2.long-header{
+    font-size: 1.2rem;
+    letter-spacing: normal;
+    justify-self: center;
+    font-weight: 300;
+}
+
+
+
+/* h3 headers */
+
+h3{
+    font-size: 2rem; 
+    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -3%;
+}
+
+.person-card>h3{
+    line-height: 110%;
+}
+
+
+/* common text */
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-weight: 600;
+}
+
+.text>p:last-child {
+    margin-bottom: 0px;
+}
+
+#form-section>form>p{
+    font-size: 1rem
+}
+
+:lang(ru) .person-card > p{
+    font-weight: 600;
+} 
+
+
+#post-address{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-style: normal;
+    text-align: center;
+}
+
+.build-house-ol{
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+}
+
+.text>p{
+    margin-bottom: 10px;
+}
+
+
+/* links */
+
+h3 a,h3 a:visited{
+    color:var(--brend-brown);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.social-media > a{
+    text-decoration: none;
+}
+
+.busines-card-decoration>a{
+    font-size: 24px;
+    line-height: 16px;
+    color: var(--brend-brown);
+    text-wrap: nowrap;
+}
+
+.busines-card-decoration>a:hover{
+    color: var(--ice-light-blue);
+}
+
+footer a{
+    text-decoration: underline;
+    color: var(--brend-brown);
+}
+
+
+nav>a{
+    font-size: 1rem;
+    text-wrap:wrap;
+}
+
+.footnote{
+    font-style: italic;
+    color: var(--brend-brown);
+    filter: opacity(70%)
+}
+
+
+
+/* Sections and containers ---------- */
+
+section, .vertical-section{
+    max-width: 100%;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+
+.side-section{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 1rem;
+    align-self: stretch;
+}
+
+#second-video-section>.side-section, #terro-sale, #terra-map{
+    width: 90%;
+    align-self: center;
+    background-image: url(../svg/patern.svg);
+    background-size: auto;
+}
+
+#form-section, .our-terras{
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    border-radius: 3rem;
+    align-self: center;
+    align-items: stretch;
+    background-color: #77B8DB;
+    background-position:  0  bottom;
+    background-size: 200%;
+}
+
+.our-terras{
+    background-image: url(../svg/patern.svg);
+    background-position: top;
+    background-size: cover;
+    width: 80%;
+    flex-direction: column;
+    color: #fff;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+address, form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+address{
+    align-items: center;
+}
+
+/* Containers */
+
+.person-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    row-gap: 5rem;
+    gap: 3rem;
+    width: 80%;
+}
+
+.why-calafate-cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    justify-self: stretch;
+    align-self:  stretch;
+}
+
+.busines-cards-container{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    column-gap: 10%;
+    row-gap: 2rem;
+    justify-self: stretch;
+
+    flex-direction: column;
+    /* max-width: 900px; */
+}
+
+
+
+.busines-card-decoration{
+    flex-basis: 33%;
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 16px;
+}
+
+
+#fin-model-container{
+    align-self: stretch;
+    width: 100%;
+}
+
+
+
+/* Cards -----------  */
+
+.person-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 280px;
+}
+
+.why-calafate-card{
+    display: flex;
+    /* align-self: stretch;  */
+    height: 520px;
+    width: auto;
+    color: white;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.image-description{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0.5rem 1rem 1rem; 
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    text-wrap: wrap;
+    width: 100%;
+    transition: 0.3s ease;
+    line-height: 95%;
+}
+
+.why-calafate-card:hover .image-description{
+    background-color: rgba(81, 81, 81, 0.6);
+}
+
+.busines-card{
+    width: fit-content;   
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.busines-card .overlay{  
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+
+.busines-card .overlay:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.social-media{
+    display: flex;
+    align-self: stretch;
+    padding: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(81, 81, 81, 0.6);
+    backdrop-filter: blur(34px);
+    border-radius: 0.5rem;
+}
+
+iframe{
+    max-width: 100%
+}
+
+
+.interactive-map-cont {
+    position: relative;
+}
+.interactive-map-cont img, .terra-map-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 0;
+}
+.interactive-map-cont svg, .map-svg {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* .interactive-map-cont svg  */
+
+#terra-map-img{
+    border-radius: 3rem;
+}
+
+.map-circle, .terra-map-circle{
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.image-background{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    display: none;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: all;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.image-background > .map-image{
+    width: auto;
+    height:90%;
+    align-self: center;
+    object-fit: cover;
+    display: none;
+    z-index: 3;
+    align-self: center
+};
+
+
+.interactive-map-cont {
+    position: relative;
+}
+
+.interactive-map-cont img {
+    width: 100%;
+    height: auto;
+}
+
+.map-image-thumb{
+    width: auto;
+    height: 150px;
+    align-self: center;
+    object-fit: cover;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    z-index: 4;
+    border: white 3px solid;
+    border-radius: 10px;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.35);
+    
+}
+
+
+.terra-map-circle {
+    transition:  0.5s, fill 0.5s;
+    cursor: pointer;
+}
+  
+.terra-map-circle.active {
+fill: #D6A84F !important; /* выбранный цвет */
+r: 8px;
+stroke-width: 8px;
+}
+
+.terra-map-circle.hover {
+    fill: var(--ice-light-blue) !important; /* выбранный цвет */
+    r: 8px;
+    stroke-width: 8px;
+    }
+
+
+.nav-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #967758;
+    color: white;
+    font-weight: bold;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.nav-button:hover {
+    background-color: #b09070;
+  }
+
+.navigation-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+.interactive-map-cont svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.about-image, .side-image .round-border{
+    display: flex;
+    width: 100%;
+    /* max-height: 250px;   */
+    object-fit: fit-content;
+    align-self: start;
+    margin-bottom: 1rem;
+}
+
+
+#plot-image {
+    height: 380px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#terra-map .horizontal-section{
+    align-items: flex-start;
+}
+
+.round-border{
+    border-radius: 2rem;
+}
+
+
+
+/* Input ------------- */
+
+#submit-form, #submit-terra-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem 3rem;
+    background: #08588C;
+    border-radius: 70px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#submit-terra-form{
+    width: fit-content;
+    background-color: #967758;
+    margin-top: 20px;
+}
+
+#submit-form:hover{
+    background-color: var(--ice-light-blue);
+    cursor: pointer ;
+}
+
+/* Images ---------------------- */
+
+svg{
+    max-width: 100%;
+    display: flex;
+    justify-content: stretch;
+}
+
+svg > rect.vertical-rectangle{
+    width: 100%; 
+    height: 10px;
+}
+
+svg.vertical-rectangle-svg{
+    width: 90%;
+    height: 10px;
+    align-self: center;
+}
+
+.img, #header-glaicer-video {
+    pointer-events: none;
+    object-fit: cover;
+    align-self: stretch;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+
+#second-video-section{
+    width: 100%;
+    height: 80svh;
+}
+
+#second-video{
+    height: 90svh;
+}
+
+
+
+svg > rect{
+    max-width: 100%;
+}
+
+#plot-scheme-image {
+    align-self: stretch;
+}
+
+.plot-image{
+    object-position: top;
+    height: 450px;
+    border-bottom-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+#fin-model-image{
+    width: 100%;
+}
+
+.person-card>img{
+    display: flex;
+    height: 280px;
+    width: 290px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+#house-image{
+    width: 100%;
+}
+
+/* why-calafate */
+
+#gastronomy{
+    order: 2;
+    background-image: image-set(
+        url(../webp/gastronomy.webp) type("image/wepb"),
+        url(../img/gastronomy.jpg)
+        );
+    background-size: cover; 
+}
+
+#perito-moreno-glacier{
+    order: 1;
+    background-image: image-set(
+        url(../webp/perito-moreno-glacier.webp) type("image/wepb"),
+        url(../img/perito-moreno-glacier.jpg)
+     );
+}
+
+
+#trekking{
+    order: 3;
+
+    background-image: image-set(
+        url(../webp/trekking.webp) type("image/wepb"),
+        url(../img/trekking.jpg)
+        );
+}
+
+#water-adventures{
+    order: 4;
+    background-image: image-set(
+        url(../webp/water-adventures.webp) type("image/wepb"),
+        url(../img/water-adventures.jpg)
+        );
+}
+
+
+/* busines-lines */
+
+#royal-expeditions{
+    background-image: image-set(
+        url(../webp/royalexpeditions.webp) type("image/wepb"),
+        url(../img/royalexpeditions.jpg)
+    );
+}
+
+#puro-cielo{
+    background-image: image-set(
+        url(../webp/purocielo.webp) type("image/wepb"),
+        url(../img/purocielo.jpg)
+    );
+}
+
+#royal-safari{
+    background-image: image-set(
+        url(../webp/royalsafari.webp) type("image/wepb"),
+        url(../img/royalsafari.jpg)
+    );
+}
+
+#royal-fish-club{
+    background-image: image-set(
+        url(../webp/royal-fish-club.webp) type("image/wepb"),
+        url(../img/royal-fish-club.jpg)
+    );
+}
+
+/* social-media */
+
+.social-media > a > svg{
+    width: 50px;
+}
+
+.social-media > a:hover > svg > path, .social-media > a:hover > svg > g > path{
+    fill: var(--ice-light-blue);
+}
+
+
+
+.social-media > a:hover > svg.facebook > g > path{
+    fill: #1B86EA;
+}
+
+.social-media > a:hover > svg.telegram > g > path{
+    fill: #2299D4;
+}
+
+.social-media > a:hover > svg.instagram > path{
+    fill: #FF1B90;
+}
+
+.social-media > a:hover > svg.you-tube > path{
+    fill: #FF0000;
+}
+
+.overlay>svg, .busines-card-decoration>svg{
+    align-self: stretch center;
+    width: 90%;
+}
+
+/* Table ---------------- */
+
+table{
+    font-size: 1.5rem;
+    align-items: start;
+    align-self: start;
+}
+
+th,td{
+    width: 12rem;
+    text-align: left;
+    padding: 0.3rem;
+}
+
+th{
+    font-weight: 300;
+}
+
+td{
+    font-weight: 600;
+}
+
+
+
+.horizontal-section{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media (max-width: 441px) {
+    h1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 2rem;
+        letter-spacing: 0.1px;
+        font-weight: bold;
+    } 
+
+    #business-lines > h2:lang(ru){
+        font-size: 1.7rem;
+    }
+
+    table{
+        font-size: 0.9rem;
+    }
+
+    #form-section{
+        align-self: center;
+        gap: 1rem;
+    }
+
+
+    #form-section>form>#submit-form, #submit-terra-form{
+        align-self: stretch;
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
+    
+    #submit-terra-form, .our-terras{
+        width: 100%;
+        font-size: 1rem;
+        border-radius: 1rem;
+    }
+
+    #location-and-layout h2:lang(ru),#about-project h2:lang(ru){
+        font-size: 2rem;
+    }
+
+    
+    nav{
+        padding: 2rem 1rem;
+        gap:1rem;
+        width: auto;
+        align-self: stretch ;
+    }
+
+    .person-card>img {
+        height: 230px;
+        width: 230px;
+    }
+
+    .busines-card{
+        width: 280px;
+    }   
+
+    .text>p{
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+    
+    .langlink, .language-dropdown{
+        position: absolute;
+        font-size: 1rem;
+        color: white;
+        right: 0px;
+        top: 0px;
+        z-index: 4;
+    }
+    
+    #second-video-section{
+        width: 100%;
+        height: 100%;
+    }
+
+    #second-video{
+        height: 40svh
+    }
+
+    .our-terras>text{
+        font-weight: 300;
+    }
+    
+    .our-terras{
+        padding: 2rem 1rem;
+    }
+
+}
+
+
+@media (min-width: 600px) {
+    #form-section{
+        width: fit-content;
+        height: fit-content;
+        align-self: center;
+        border-radius: 3rem;
+        padding: 4rem;
+        align-self: center;
+        align-items: stretch;
+        background-color: #77B8DB;
+        background-position:  0  bottom;
+        background-size: 200%;
+    }
+
+    #terro-sale, #terra-map{
+        padding: 2.5rem 3rem 4rem ;
+    }
+
+    
+}
+  
+
+@media (min-width: 961px) {
+
+    /* Document -----------  */
+
+    body{
+        padding: 0;
+        padding-bottom: 5rem;
+    }
+
+    section, .vertical-section{
+        width: 85%;
+    }
+
+    html{
+        font-size: 18px;    
+    }
+
+    #plot-scheme-image {
+        align-self: flex-end;
+    }
+
+
+    /* Header ----------- */
+    header{
+        padding: 0rem 0rem;
+        height: 80svh;
+        justify-content: space-evenly;
+        margin: 0;
+        /* height: 1000px;     */
+    }
+
+    #header-glaicer-video, .video-overlay{
+        height: 80svh;
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom;
+        border-bottom-right-radius: 5rem;
+        border-bottom-left-radius: 5rem;
+    }
+
+
+    h1{
+        font-size: 8rem;
+    }
+
+    #puro-cielo-header{
+        font-size: 3rem;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    }
+
+    /* navigation bar */
+
+    nav{
+        flex-direction: row;
+        align-self: center;
+        width: fit-content;
+        border-radius: 2rem;
+        padding: 1rem 1rem;
+        gap: 0.7rem;
+    }
+
+    nav>a{
+        font-size: 0.9rem;
+    }
+
+
+    .busines-cards-container{
+        flex-direction: row;
+    }
+
+    #terra-map h2{
+        width: 70%;
+    }
+
+    #terra-map .horizontal-section{
+        gap: 2rem;
+    }
+
+    #terra-map > .horizontal-section > .interactive-map-cont{
+       width: 50%;
+    }
+
+    #second-video{
+        width: 80%;
+        height: 80svh
+    }
+
+
+
+}
+
+
+/* Descktop properties */
+
+@media (min-width: 1201px) {
+
+    /* Document -----------  */
+
+
+    section{
+        gap: 1rem;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .vetical-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3rem;
+    }
+
+
+    header{
+        margin-bottom: 2rem;
+    }
+
+    /* Navigation -----------  */
+
+    nav{
+        padding: 1rem 2rem;
+        gap: 1rem;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #business-lines-header{
+        font-size: 4rem;
+    }
+        
+    h3{
+        font-size: 1.8rem;
+        line-height: normal;
+    }
+
+
+    .side-section{
+        align-self: flex-start;
+        row-gap: 1rem;
+    }
+
+    .long-header{
+        font-size: 2rem;
+        letter-spacing: normal;
+        justify-self: center;
+        margin-bottom: 0.8rem;
+        line-height: 95%;
+    }
+
+    #about-project, #location-and-layout, #square-cacle, #choose-house, #build-house, .horizontal-section{
+        gap: 1rem;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .side-image{
+        display: flex;
+        width: 50%; 
+        height: auto;      
+        max-height: 100svh;  
+        object-fit: cover;
+    }
+
+    .horizontal-section{
+        flex-wrap: nowrap;
+        margin-bottom: 2rem;
+    }
+
+    .about-image:first-child{
+        /* max-height: 400px;   */
+        width: 50%;
+        align-self: center;
+    }
+
+
+    .horizontal-section:nth-child(2) >.about-image{
+        align-self: center;
+        /* max-height: 50vh;   */
+        width: 50%;
+    }
+
+    .horizontal-section:last-child >.about-image{
+        align-self: center;
+        max-height: 400px;  
+        width: 50%;
+    }
+
+    #choose-house .side-image{
+        /* width: 45%; */
+        height: 350px;
+        object-fit: cover;
+    }
+
+
+    #house-module{
+        align-self: start;
+        padding-top: 4rem;
+        width: 110%;
+    }
+
+    #choose-house>.side-section{
+        justify-content: end;
+        align-self: stretch;
+        padding-bottom: 2rem;
+    }
+
+
+    .why-calafate-cards-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    #gastronomy, #trekking {
+        flex-basis: 33%;
+    }
+
+    #perito-moreno-glacier, #water-adventures{
+        flex-basis: 65%;
+    }
+
+    svg > rect.vertical-rectangle{
+        width: 30px; 
+        height: 100%;
+    }
+    
+    svg.vertical-rectangle-svg{
+        width: 30px;
+        height: 100%;
+        justify-self: center;
+        align-self: center;
+    }
+
+    header{
+        gap: 6rem;
+        margin-bottom: 0;
+    }
+
+    #terro-sale h2, #terra-map h2 {
+        font-size: 3.5rem;
+
+    }
+
+
+}
+
+@media (min-width: 1901px) {
+
+    html{
+        font-size: 22px;    
+    }
+
+    text>p {
+        font-size: 24px;
+    }
+
+    header{
+        background-position: 0 bottom;
+        background-size: cover;
+    }
+
+    nav>a{
+        text-wrap:wrap;
+        font-size: 1.2rem;
+    }
+
+    .about-project-image{
+        width: 50%;
+        height: 300px;
+    }
+
+    .busines-cards-container {
+        max-width: 1200px;
+    }
+}

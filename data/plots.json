@@ -1,0 +1,71 @@
+{
+  "1": {
+    "title": "Lago Cardiel",
+    "description": "Зона Лаго Кардиэль, Санта-Крус.\n\nЭстансия площадью 38 000 га.\nНаходится в 87 км от Гобернадор-Грегорес.\nНа территории: главный дом, дом для персонала, склад для кормов и многое другое.\n\nУчасток разделён на пастбища, 36 км береговой линии с рыбалкой на форель, лосося и другие виды.\n\nU",
+    "price": "$ 2 500 000 (дополнительно 3% + НДС комиссионные).",
+    "images": [
+      "../static/terra-photo/lago-cardiel/1.jpg",
+      "../static/terra-photo/lago-cardiel/3.jpg",
+      "../static/terra-photo/lago-cardiel/4.jpg",
+      "../static/terra-photo/lago-cardiel/5.jpg",
+      "../static/terra-photo/lago-cardiel/6.jpg",
+      "../static/terra-photo/lago-cardiel/7.jpg",
+      "../static/terra-photo/lago-cardiel/8.jpg",
+      "../static/terra-photo/lago-cardiel/9.jpg",
+      "../static/terra-photo/lago-cardiel/10.jpg",
+      "../static/terra-photo/lago-cardiel/11.jpg",
+      "../static/terra-photo/lago-cardiel/12.jpg",
+      "../static/terra-photo/lago-cardiel/13.jpg"
+    ]
+  },
+  "3": {
+    "title": "Lago del Desierto",
+    "description": "Участок 11 615 га в провинции Санта-Крус.\n\n3400 метров западного и 2900 метров восточного побережья озера Лаго дель Десиерто.\nНаходится в 4 км от реки Лас-Вуэльтас (также известной как Рио Гатика).\n\nПейзажи с ледниками, водопадами, долинами, подходящими для зимних видов спорта, и видами на гору Фицрой. Включает лыжную трассу на горе Эль-Крестон.\n\nБогатая флора и фауна: леса ленга, нирес и гиндо, а также такие животные как пумы, олени, лисы и зайцы",
+    "price": "по запросу",
+    "images": [
+      "../static/terra-photo/lago-del-desierto/1.jpg",
+      "../static/terra-photo/lago-del-desierto/2.jpg",
+      "../static/terra-photo/lago-del-desierto/3.jpg",
+      "../static/terra-photo/lago-del-desierto/4.jpg"
+    ]
+  },
+  "5": {
+    "title": "Lodge de pesca",
+    "description": "Уникальный рыболовный лодж в Эль-Калафате, Санта-Крус, в Патагонской степи, рядом с нацпарком Перито-Морено.\n\nУчасток: 10 000 гектаров с множеством вариантов для развития.\n\nВодоёмы:\nОзеро Олни и лагуна Кристалина, соединённые ручьём.\nРыбалка на радужную форель со средним весом 3 кг.\n\nПроживание: Вместимость — 15 гостей, обслуживаются командой из 6 человек.\n\nДополнительно: Фотосафари с возможностью наблюдать за местной фауной.",
+    "price": "по запросу",
+    "images": [
+      "../static/terra-photo/lodge-de-pesca/1.jpg",
+      "../static/terra-photo/lodge-de-pesca/2.jpg",
+      "../static/terra-photo/lodge-de-pesca/3.jpg",
+      "../static/terra-photo/lodge-de-pesca/4.jpg"
+    ]
+  },
+  "6": {
+    "title": "Barrio Manantiales",
+    "description": "Недвижимость на продажу.\nРайон Манантьялес, Эль-Калафате, Санта-Крус.\n\nПревосходное качество строительства в престижном районе Манантьялес.\nПервый этаж: прихожая, кухня, столовая, общая зона (SUM), два санузла; выход на задний и передний двор.\nПервый этаж: три элегантные спальни, одна — с ванной комнатой; подвал более 170 м² — для различных целей.\n\nВсе удобства подключены.\n\nДоступна рассрочка.",
+    "price": "$187,000",
+    "images": [
+      "../static/terra-photo/barrio-manantiales/1.jpg",
+      "../static/terra-photo/barrio-manantiales/2.jpg",
+      "../static/terra-photo/barrio-manantiales/3.jpg",
+      "../static/terra-photo/barrio-manantiales/4.jpg"
+    ]
+  },
+  "7": {
+    "title": "Laguna Nimez",
+    "description": "Участок в продаже — заповедная зона Лагуна Нимес, Авенида Костанера, Эль-Калафате, провинция Санта-Крус.\n\nПлощадь: 10 000 м²\nОсобенности: идеально для туристической или жилой застройки.\n\nДополнительно:\nПанорамный вид на горы и холмы.\nРядом с экологическим заповедником Лагуна Нимес.\nТихий район с престижными соседями.\n\nВсе коммуникации подключены.",
+    "price": "$138,000",
+    "images": [
+      "../static/terra-photo/laguna-nimez/1.jpg",
+      "../static/terra-photo/laguna-nimez/2.jpg",
+      "../static/terra-photo/laguna-nimez/3.jpg",
+      "../static/terra-photo/laguna-nimez/4.jpg"
+    ]
+  },
+  "8": {
+    "title": "Mallín Ahogado",
+    "description": "Посёлок Cipreses del Sur — Малин Аогадо, Эль-Больсон, Рио-Негро, Аргентина.\n\nДоступные участки по 2500 м² с подключением электричества, воды и газа.\n\nОкружён природными лесами, всего в 6 км от популярного туристического города Эль-Больсон.\n\nУникальная возможность приобрести недвижимость в живописной природной среде.",
+    "price": "по запросу",
+    "images": ["../static/terra-photo/plot8.jpg"]
+  }
+}

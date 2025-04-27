@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO-теги -->
+  <title>PURO FUENTE - Участок земли в Аргентине</title>
+  <meta
+    name="description"
+    content="PURO FUENTE - роскошный глэмпинг с виллами и участками в национальном парке Лос-Гласьярес, Аргентина."
+  />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="PURO FUENTE" />
+  <meta
+    property="og:description"
+    content="PURO FUENTE - роскошный глэмпинг с виллами и участками в национальном парке Лос-Гласьярес, Аргентина."
+  />
+  <meta property="og:image" content="https://www.purofuente.com/thumbnail.jpg" />
+  <meta property="og:url" content="https://www.purofuente.com/plot.html" />
+
+  <!-- Альтернативные языки -->
+  <link rel="alternate" hreflang="en" href="https://www.purofuente.com/en" />
+  <link rel="alternate" hreflang="es" href="https://www.purofuente.com/es" />
+  <link rel="alternate" hreflang="ru" href="https://www.purofuente.com" />
+  <link rel="alternate" href="https://www.purofuente.com" hreflang="x-default" />
+
+  <!-- Иконка -->
+  <link rel="icon" href="favicon.ico" />
+
+  <!-- Подключаем стили -->
+  <link rel="stylesheet" href="static/styles/plot-page-style.css" />
+
+  <!-- Подключаем шрифты -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Montserrat&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="vertical-container first">
+    <a href="index.html" id="home-link">На главную</a>
+    <div id="plot-detail">
+      <!-- Левая часть: блок с большим изображением и мини-слайдером -->
+      <div class="detail-gallery">
+        <!-- Большое изображение -->
+        <div class="main-image-box">
+          <img id="detail-main-img" alt="Main" />
+        </div>
+
+        <!-- Слайдер мини-картинок + кнопки -->
+        <div class="thumbnails-box">
+          <button class="thumb-nav" id="prev-thumb">←</button><!-- Обёртка -->
+          <div class="thumbs-wrapper">
+            <!-- Внутри обёртки — сам трек -->
+            <div class="thumbs-track" id="thumbs-track">
+              <!-- Миниатюры добавляет скрипт -->
+            </div>
+          </div>
+          <button class="thumb-nav" id="next-thumb">→</button>
+        </div>
+      </div>
+    <!-- Правая часть: данные участка -->
+      <div id="plot-data">
+        <h2 id="detail-title"></h2>
+        <p id="detail-description"></p>
+        <div class="price">
+          <span>Цена:</span>
+          <span id="detail-price"></span>
+        </div>
+        <a id="submit-terra-form"
+        href="https://wa.me/5492966505418?text=Здравствуйте%2C%20пишу%20по%20поводу%20участков%20с%20сайта%20purofuente">
+        Получить консультацию
+        </a>
+      </div>
+  </div>
+  </div>
+<div class="vertical-container second">
+  <h3>Другие участки</h3>
+  <div id="other-plots"></div>
+</div>
+
+  <!-- Подключаем скрипт -->
+  <script src="static/scripts/plot-page.js"></script>
+</body>
+</html>

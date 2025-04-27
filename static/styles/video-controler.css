@@ -1,0 +1,15 @@
+
+#play-btn, #pause-btn{
+    height: 8rem;
+    width: 8rem;
+    position: absolute;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#play-btn{
+    z-index: 2;
+}

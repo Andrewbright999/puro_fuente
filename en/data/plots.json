@@ -1,0 +1,71 @@
+{
+  "1": {
+    "title": "Lago Cardiel",
+    "description": "Lago Cardiel area, Santa Cruz.\n\nEstancia of 38,000 hectares.\nLocated 87 km from Gobernador Gregores.\nIncludes main house, staff house, forage shed, and more.\n\nLand divided into paddocks, 36 km of shoreline with trout, salmon, and other fishing.",
+    "price": "$ 2,500,000 (plus 3% commission + VAT)",
+    "images": [
+      "../static/terra-photo/lago-cardiel/1.jpg",
+      "../static/terra-photo/lago-cardiel/3.jpg",
+      "../static/terra-photo/lago-cardiel/4.jpg",
+      "../static/terra-photo/lago-cardiel/5.jpg",
+      "../static/terra-photo/lago-cardiel/6.jpg",
+      "../static/terra-photo/lago-cardiel/7.jpg",
+      "../static/terra-photo/lago-cardiel/8.jpg",
+      "../static/terra-photo/lago-cardiel/9.jpg",
+      "../static/terra-photo/lago-cardiel/10.jpg",
+      "../static/terra-photo/lago-cardiel/11.jpg",
+      "../static/terra-photo/lago-cardiel/12.jpg",
+      "../static/terra-photo/lago-cardiel/13.jpg"
+    ]
+  },
+  "3": {
+    "title": "Lago del Desierto",
+    "description": "Plot of 11,615 hectares in the province of Santa Cruz.\n\n3,400 meters of western and 2,900 meters of eastern shoreline along Lago del Desierto.\nLocated 4 km from the Las Vueltas River (also known as Río Gatica).\n\nLandscapes with glaciers, waterfalls, valleys suitable for winter sports, and views of Mount Fitz Roy. Includes a ski slope on Mount El Crestón.\n\nRich flora and fauna: lenga, ñire, and guindo forests, as well as wildlife such as pumas, deer, foxes, and hares.",
+    "price": "upon request",
+    "images": [
+      "../static/terra-photo/lago-del-desierto/1.jpg",
+      "../static/terra-photo/lago-del-desierto/2.jpg",
+      "../static/terra-photo/lago-del-desierto/3.jpg",
+      "../static/terra-photo/lago-del-desierto/4.jpg"
+    ]
+  },
+  "5": {
+    "title": "Lodge de pesca",
+    "description": "Incredible fishing lodge in El Calafate, Santa Cruz, in the Patagonian Steppe, near Perito Moreno National Park.\n\nLand: 10,000 hectares with multiple development opportunities.\n\nWater bodies:\nLake Olnie and Laguna Cristalina connected by a stream.\nRainbow trout fishing with an average weight of 3 kg.\n\nAccommodation: Capacity for 15 guests, serviced by a team of 6 staff members.\n\nAdditional activities: Wildlife photo safaris in a rich natural setting.",
+    "price": "upon request",
+    "images": [
+      "../static/terra-photo/lodge-de-pesca/1.jpg",
+      "../static/terra-photo/lodge-de-pesca/2.jpg",
+      "../static/terra-photo/lodge-de-pesca/3.jpg",
+      "../static/terra-photo/lodge-de-pesca/4.jpg"
+    ]
+  },
+  "6": {
+    "title": "Barrio Manantiales",
+    "description": "Property for sale.\nBarrio Manantiales, El Calafate, Santa Cruz.\n\nHigh-quality construction in the prestigious Manantiales neighborhood.\nGround floor: entrance hall, kitchen, dining area, multipurpose room (SUM), two bathrooms; access to both front and back yards.\nFirst floor: three elegant bedrooms, one en-suite; basement over 170 m² for multiple uses.\n\nAll utilities available.\n\nFinancing option available.",
+    "price": "$187,000",
+    "images": [
+      "../static/terra-photo/barrio-manantiales/1.jpg",
+      "../static/terra-photo/barrio-manantiales/2.jpg",
+      "../static/terra-photo/barrio-manantiales/3.jpg",
+      "../static/terra-photo/barrio-manantiales/4.jpg"
+    ]
+  },
+  "7": {
+    "title": "Laguna Nimez",
+    "description": "Lot for sale – Laguna Nimez Reserve Area. Av. Costanera, El Calafate, Santa Cruz Province.\n\nArea: 10,000 m²\nFeatures: Ideal for tourism or residential development.\n\nAdditional details:\nPanoramic views of mountains and hills.\nNext to the Laguna Nimez Urban Ecological Reserve.\nQuiet surroundings with high-end neighbors.\n\nAll services available.",
+    "price": "$138,000",
+    "images": [
+      "../static/terra-photo/laguna-nimez/1.jpg",
+      "../static/terra-photo/laguna-nimez/2.jpg",
+      "../static/terra-photo/laguna-nimez/3.jpg",
+      "../static/terra-photo/laguna-nimez/4.jpg"
+    ]
+  },
+  "8": {
+    "title": "Mallín Ahogado",
+    "description": "Cipreses del Sur subdivision – Mallín Ahogado, El Bolsón, Río Negro, Argentina.\n\nAvailable lots are 2,500 m² with access to electricity, water, and gas.\n\nSurrounded by native forests, just 6 km from the popular tourist town of El Bolsón.\n\nA unique opportunity to acquire property in a privileged natural environment.",
+    "price": "upon request",
+    "images": ["../static/terra-photo/plot8.jpg"]
+  }
+}
